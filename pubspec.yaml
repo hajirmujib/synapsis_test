@@ -1,0 +1,83 @@
+name: catatan
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+dependencies:
+  badges: ^3.1.1
+  battery_info: ^1.1.1
+  cached_network_image: ^3.2.3
+  cupertino_icons: ^1.0.2
+  device_info_plus: ^9.0.2
+  dio: ^5.2.1+1
+  dotted_line: ^3.1.0
+  fl_chart: ^0.60.0
+  flutter:
+    sdk: flutter
+  flutter_animated_dialog: ^2.0.1
+  flutter_easyloading: ^3.0.5
+  flutter_map: ^4.0.0
+  flutter_svg: ^1.1.6
+  geolocator: ^9.0.2
+  get: 4.6.5
+  infinite_scroll_pagination: ^3.2.0
+  intl: ^0.18.1
+  latlong2: ^0.8.2
+  local_auth: ^2.1.6
+  path: null
+  path_provider: ^2.0.12
+  persistent_bottom_nav_bar: ^5.0.2
+  photo_view: ^0.14.0
+  sensors_plus: ^3.0.2
+  shared_preferences: ^2.1.2
+  shimmer: ^2.0.0
+  sqflite: ^2.2.8+4
+  url_launcher: ^6.1.11
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/
+
+  fonts:
+    - family: IconUI
+      fonts:
+        - asset: assets/fonts/iconui/iconUI.ttf
+
+    # - family: AppIcon
+    #   fonts:
+    #     - asset: assets/icons/app-icon.ttf
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito/Nunito-Black.ttf
+        - asset: assets/fonts/Nunito/Nunito-BlackItalic.ttf
+          style: italic
+        - asset: assets/fonts/Nunito/Nunito-Bold.ttf
+        - asset: assets/fonts/Nunito/Nunito-BoldItalic.ttf
+          style: italic
+        - asset: assets/fonts/Nunito/Nunito-ExtraBold.ttf
+        - asset: assets/fonts/Nunito/Nunito-ExtraBoldItalic.ttf
+          style: italic
+        - asset: assets/fonts/Nunito/Nunito-ExtraLight.ttf
+        - asset: assets/fonts/Nunito/Nunito-ExtraLightItalic.ttf
+          style: italic
+        - asset: assets/fonts/Nunito/Nunito-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Nunito/Nunito-Light.ttf
+        - asset: assets/fonts/Nunito/Nunito-LightItalic.ttf
+          style: italic
+        - asset: assets/fonts/Nunito/Nunito-Medium.ttf
+        - asset: assets/fonts/Nunito/Nunito-MediumItalic.ttf
+          style: italic
+        - asset: assets/fonts/Nunito/Nunito-Regular.ttf
+        - asset: assets/fonts/Nunito/Nunito-SemiBold.ttf
+        - asset: assets/fonts/Nunito/Nunito-SemiBoldItalic.ttf
+          style: italic
+
+  uses-material-design: true
